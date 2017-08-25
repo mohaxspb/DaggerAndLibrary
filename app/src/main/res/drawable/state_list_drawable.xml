@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@color/colorPrimary" android:state_enabled="false" />
-    <item android:drawable="@color/colorPrimary" android:state_pressed="false" /> <!-- pressed -->
-    <item android:drawable="@color/colorAccent" android:state_pressed="true" /> <!-- focused -->
-    <item android:drawable="@color/colorAccent" android:state_enabled="true" /> <!-- idle state -->
+    <item android:drawable="@drawable/scrollbar_light" android:state_enabled="false" />
+    <!--<item android:drawable="@drawable/ic_arrow_downward_black_24dp" android:state_pressed="false" /> &lt;!&ndash; pressed &ndash;&gt;-->
+    <!--<item android:drawable="@drawable/ic_arrow_forward_black_24dp" android:state_pressed="true" /> &lt;!&ndash; focused &ndash;&gt;-->
+    <!--<item android:drawable="@drawable/ic_arrow_upward_black_24dp" android:state_enabled="true" /> &lt;!&ndash; idle state &ndash;&gt;-->
 </selector>
